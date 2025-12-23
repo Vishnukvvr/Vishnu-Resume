@@ -1,254 +1,219 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="UTF-8">
-  <title>Kopperla Vishnu Vardhan Reddy</title>
-  <style>
-    /* Set A4 print size */
-    @page {
-      size: A4;
-      margin: 2cm;
-    }
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kopperla Vishnu Vardhan Reddy</title>
 
-    * {
-      box-sizing: border-box;
-    }
+<style>
+  /* A4 size */
+  @page {
+    size: A4;
+    margin: 2cm;
+  }
 
-    body {
-      width: 21cm;
-      min-height: 29.7cm;
-      margin: 0 auto;
-      padding: 2cm;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      line-height: 1.6;
-      color: #000;
-      background: white;
-    }
-    p{
-        font-size: 14px;
-    }
+  * {
+    box-sizing: border-box;
+  }
 
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
+  body {
+    width: 21cm;
+    min-height: 29.7cm;
+    margin: 0 auto;
+    padding: 2cm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #000;
+    background: white;
+  }
 
-   
+  p {
+    font-size: 14px;
+  }
 
-    h1 {
-      margin: 0;
-      font-size: 24px;
-      text-align: center;
-    }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 
-    .contact {
-        display: flex;
-        gap: 5px;
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
 
-      
-      font-size: 10px;
-    }
-    .contact-details{
-        font-size: 12px;
-    }
+  .contact {
+    display: flex;
+    gap: 15px;
+    font-size: 10px;
+  }
 
-    .section {
-      margin-top: -3px;
-      page-break-inside: avoid;
-      font-size: 14px;
-    }
+  .contact-details {
+    font-size: 12px;
+  }
 
-    .section h2 {
-     border-bottom: 1px solid #444;
-      
-      font-size: 16px;
-    }
+  .section {
+    margin-top: -3px;
+    page-break-inside: avoid;
+    font-size: 14px;
+  }
 
-    ul {
-      padding-left: 20px;
-      margin: 0;
-    }
+  .section h2 {
+    border-bottom: 1px solid #444;
+    font-size: 16px;
+  }
 
-    li {
-      margin-bottom: 4px;
-    }
+  ul {
+    padding-left: 20px;
+    margin: 0;
+  }
 
-    .bottom {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 30px;
-    }
+  li {
+    margin-bottom: 4px;
+  }
 
-    .signature {
-      text-align: right;
-    }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
 
-    /* Remove link colors for print */
-    a {
-      color: #000;
-      text-decoration: none;
-    }
+  /* Preview button */
+  .preview-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 6px 12px;
+    font-size: 12px;
+    cursor: pointer;
+  }
 
-    /* Hide scrollbars in print */
-    @media print {
-      html, body {
-        width: 100%;
-        height: auto;
-      }
+  @media print {
+    .preview-btn {
+      display: none;
     }
-  </style>
+  }
+</style>
 </head>
+
 <body>
 
-  <!-- Header -->
-  <header class="header">
-    <div>
-      <h1>Kopperla Vishnu Vardhan Reddy</h1>
-      <div class="contact">
-        <div>
-           <p class="contact-details"><b>Email:</b> <a href="mailto:kkvishnu938@gmail.com
-">kkvishnu938@gmail.com
-</a></p>
+<button class="preview-btn" onclick="window.print()">Print / Preview PDF</button>
 
-            <p class="contact-details"><b>Phone</b>: +91-8008360080</p>
-        </div>
-        <div>
-            <p class="contact-details"><b>LinkedIn</b>: <a href="https://www.linkedin.com/in/kopperla-vishnu-vardhan-reddy-962548262/">https://www.linkedin.com/in/kopperla-vishnu-vardhan-reddy-962548262/</a></p>
-
-        </div>
-
+<!-- Header -->
+<header class="header">
+  <div>
+    <h1>Kopperla Vishnu Vardhan Reddy</h1>
+    <div class="contact">
+      <div>
+        <p class="contact-details"><b>Email:</b>
+          <a href="mailto:kkvishnu938@gmail.com">kkvishnu938@gmail.com</a>
+        </p>
+        <p class="contact-details"><b>Phone:</b> +91-8008360080</p>
+      </div>
+      <div>
+        <p class="contact-details"><b>LinkedIn:</b>
+          <a href="https://www.linkedin.com/in/kopperla-vishnu-vardhan-reddy-962548262/">
+            linkedin.com/in/kopperla-vishnu-vardhan-reddy
+          </a>
+        </p>
       </div>
     </div>
-    
-  </header>
+  </div>
+</header>
 
+<!-- Objective -->
+<section class="section">
+  <h2>CAREER OBJECTIVE</h2>
+  <p>
+    To obtain a Software Developer role where I can use my coding,
+    problem-solving, and teamwork skills to create innovative solutions,
+    grow professionally.
+  </p>
+</section>
 
-  <!-- Objective -->
-  <section class="section">
-    <h2>CAREER OBJECTIVE</h2>
-    <p>To obtain a Software Developer role where I can use my coding, problem-solving, and teamwork skills to create innovative solutions, grow professionally, and also contribute creatively through my YouTube “No Context” channel.</p>
-  </section>
+<!-- Education -->
+<section class="section">
+  <h2>EDUCATION</h2>
+  <ul>
+    <li>
+      <strong>Bachelor of Technology in CSE (Data Science)</strong><br>
+      GATES Institute of Technology, JNTU Anantapur, 2021–2025 – CGPA 7.16
+    </li>
+    <li>
+      <strong>Intermediate (MPC)</strong><br>
+      Narayana JR College, BIEAP Board, 2019–2021 – Percentage 90.9%
+    </li>
+    <li>
+      <strong>Secondary School Education (10th Grade)</strong><br>
+      Anantha Vidya Niketan School, 2018–2019 – GPA 9.3
+    </li>
+  </ul>
+</section>
 
-  <!-- Education -->
-  <section class="section">
-    <h2>EDUCATION</h2>
-    <ul>
-      <li><strong>Bachelor of Technology in CSE (Data Science)</strong><br>GATES Institute of Technology, Jawaharlal Nehru Technological University Anantapur, 2021-2025 –CGPA 7.16</li>
-      <li><strong>Intermediate (MPC)</strong><br>Narayana JR.College BIEAP Board, 2019-2021 –Percentage 90.9%</li>
-      <li><strong>Secondary School Education (10th Grade)</strong><br>Anantha Vidya Niketan School, 2018-2019 –GPA 9.3</li>
-    </ul>
-  </section>
-  <!-- Soft Skills -->
-<section> class="section">
+<!-- Technical Skills -->
+<section class="section">
   <h2>Technical Skills</h2>
   <ul>
     <li><strong>Programming Languages:</strong> Java</li>
-    
-    <li><strong>Core Concepts:</strong> Object-Oriented Programming (OOPs), Data Structures & Algorithms (DSA), Software Development Life Cycle (SDLC)</li>
-    
+    <li><strong>Core Concepts:</strong> OOPs, DSA, SDLC</li>
     <li><strong>Web Technologies:</strong> HTML5, CSS3, React.js</li>
-    
     <li><strong>Databases:</strong> SQL, DBMS</li>
-    
-    <li><strong>DevOps & Tools:</strong> Git, GitHub</li>
-    
-    <li><strong>Development Environments:</strong> Visual Studio Code, IntelliJ IDEA</li>
-    
+    <li><strong>Tools:</strong> Git, GitHub</li>
+    <li><strong>IDEs:</strong> VS Code, IntelliJ IDEA</li>
     <li><strong>Operating Systems:</strong> Windows, Linux</li>
   </ul>
 </section>
 
-  <section class="section">
+<!-- Soft Skills -->
+<section class="section">
   <h2>Soft Skills</h2>
-<ul>
-  <li>Problem-Solving, Leadership, Team Collaboration, Effective Communication, Time Management</li>
- 
-  
-  
-  
-</ul>
+  <ul>
+    <li>Problem-Solving, Leadership, Team Collaboration, Communication, Time Management</li>
+  </ul>
 </section>
-  </section>
 
+<!-- Projects -->
+<section class="section">
+  <h2>Projects</h2>
+  <ul>
+    <li>
+      <strong>ChatBot</strong> – Real-time app using React.js & Groq API
+      <a href="https://chat-bot-groq.netlify.app/"> [LINK]</a>
+    </li>
+    <li>
+      <strong>Network Speed Test</strong> – Responsive web app for real-time
+      network speed measurement
+      <a href="https://network-speedtest.netlify.app/"> [LINK]</a>
+    </li>
+  </ul>
+</section>
 
+<!-- Certifications -->
+<section class="section">
+  <h2>INTERNSHIP & CERTIFICATES</h2>
+  <ul>
+    <li>Java Programming – Alison</li>
+    <li>Web Development Internship – CodeWork</li>
+    <li>CSS Certification – HackerRank</li>
+  </ul>
+</section>
 
-  <!-- Projects -->
- <section class="section">
-    <h2>Projects</h2>
-    <ul>
-  <li><strong>ChatBot</strong>  Real-time app using React.js, Groq API  <a href="https://chat-bot-groq.netlify.app/">LINK</a></li>
-<li>
-  <strong>Network Speed Test</strong> – Responsive web app for real-time network speed measurement using HTML, CSS, and JavaScript.
-  <a href="https://network-speedtest.netlify.app/">LINK</a>
-</li>
-</ul>
+<!-- Hobbies -->
+<section class="section">
+  <h2>HOBBIES</h2>
+  <p>Video Editing, Chess, YouTube</p>
+</section>
 
-  </section>
+<!-- Personal Details -->
+<section class="section">
+  <h2>PERSONAL DETAILS</h2>
+  <ul>
+    <li>Date of Birth: February 25, 2004</li>
+    <li>Gender: Male</li>
+    <li>Languages: English, Telugu</li>
+    <li>Nationality: Indian</li>
+  </ul>
+</section>
 
-
-
-
-
-
-  <!-- Certifications -->
-  <section class="section">
-    <h2>INTERNSHIP & CERTIFICATES</h2>
-    <ul>
-      <li>Java Programming- Alison</li>
-      <li>Web Development Internship - CodeWork</li>
-      <li>CSS Certification - HackerRank</li>
-      
-    </ul>
-  </section>
-
-
-
-  
-
-  <!-- Hobbies -->
-  <section class="section">
-    <h2>HOBBIES</h2>
-    <p>Video Editing, Chess, YouTube</p>
-  </section>
-
-  <!-- Personal Details -->
-  <section class="section">
-    <h2>PERSONAL DETAILS</h2>
-    <ul>
-      <li>Date of Birth: February 25, 2004</li>
-      <li>Gender: Male</li>
-      <li>Languages: English, Telugu, Hindi</li>
-      <li>Nationality: Indian</li>
-    </ul>
-  </section>
-
-  
-
-
-
-
-</body></html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
+</html>
